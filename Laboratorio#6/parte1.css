@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: unset;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    padding: 10px;
+    border-style: outset;
+    width: 50vw;
+}
+
+.nombre-h1{
+    color: #375e97;
+    margin-top: 10px;
+    margin-bottom: unset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    margin: unset;
+    color: #375e97;
+}
+
+.web-h3{
+    color: #999999;
+}
+
+a{
+    color: #fb6542;
+}
