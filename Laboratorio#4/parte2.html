@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="parte2.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,19 +13,21 @@
         <p>Parte # 2</p>
         <a href="parte1.html"><p>Automoviles</p></a>
     </div>
-    <form action="" onsubmit="enviar()"> 
+
+    <form action="" onsubmit="console.log(document.getElementById('correo').value + document.getElementById('contra').value)">
+
         <label for="">Correo Electronico</label>
         <input type="email" id="correo">
         <label for="">Contraseña</label>
         <input type="password" id="contra">
-        <button>Enviar</button>
+        <input type="submit">
     </form>
 </body>
-<script>
+<!-- <script> 
     function enviar(){
         let correo = document.getElementById('correo').value;
         let contra = document.getElementById('contra').value;
         console.log("Correo Electronico = ", correo, "\nContraseña = ",contra);
     }
-</script>
+</script>-->
 </html>
