@@ -13,7 +13,7 @@ body{
 
 .container{
     padding: 10px;
-    border-style: outset;
+    border-style: solid;
     width: 50vw;
 }
 
@@ -29,8 +29,15 @@ hr{
     color: #375e97;
 }
 
-.web-h3{
+.web-h2{
     color: #999999;
+    font-size: 1rem;
+    margin: 20px 0 20px 0;
+}
+
+.web-h3{
+    font-size: 1.3rem;
+    margin: 20px 0 20px 0;
 }
 
 a{
